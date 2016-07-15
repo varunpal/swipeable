@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Swipe event with callbacks",
   "main": "index.js",
+  "repository" : {
+    "type": "git", 
+    "url": "https://github.com/varunpal/swipeable"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +15,8 @@
     "swipe",
     "event",
     "touch",
-    "event"
+    "event",
+    "react"
   ],
   "author": "Varun Pal",
   "license": "MIT"
