@@ -80,5 +80,5 @@ const Container extends React.Component {
   }
 }
 
-export default Component;
+export default Container;
 ```
