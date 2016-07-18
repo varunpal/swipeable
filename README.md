@@ -37,7 +37,7 @@ On a valid swipe, callback params are of the form:
 ```
 
 ## Options
-Options is an object consisting of the following parameters.
+Options is an object consisting of the following overrides.
 
 ```javascript
 
@@ -48,7 +48,10 @@ Options is an object consisting of the following parameters.
 
 /*
  * The time duration should be specified in milliseconds.
+ * The timeThreshold defaults to 300ms.
+ *
  * Distance is specified equivalent to scroll distance.
+ * The distance threshold defaults to 100.
  */
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "swipeable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Swipe event with callbacks",
   "main": "index.js",
   "repository" : {
