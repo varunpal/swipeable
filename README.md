@@ -6,6 +6,16 @@ Register swipe events for dom elements on your mobile websites and get callbacks
 npm install swipeable --save
 ```
 
+## Usage
+
+```javascript
+
+var swipeable = require('swipeable');
+
+swipeable(<DOM_NODE>, callback, options);
+
+```
+
 ## Callback
 On a valid swipe, callback params are of the form: 
 
@@ -23,6 +33,22 @@ On a valid swipe, callback params are of the form:
  * For right to left: The right key is set to true.
  * For Top to bottom: The top key is set to true.
  * For Bottom to Top: The bottom key is set to true.
+ */
+```
+
+## Options
+Options is an object consisting of the following parameters.
+
+```javascript
+
+{
+  timeThreshold: 200, // Time duration(ms) during which the swipe should occur
+  distanceThreshold: 200 // Minimum distance required to register a valid swipe
+}
+
+/*
+ * The time duration should be specified in milliseconds.
+ * Distance is specified equivalent to scroll distance.
  */
 ```
 

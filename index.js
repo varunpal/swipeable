@@ -1,9 +1,9 @@
-var Swipe = function (element, callback) {
+var Swipe = function (element, callback, options) {
   var time,
     startX,
     startY,
-    timeThreshold = 300,
-    distanceThreshold = 100;
+    timeThreshold = options.timeThreshold || 300,
+    distanceThreshold = options.distanceThreshold || 100;
 
   element.addEventListener('touchstart', function (event) {
     var touch = event.changedTouches[0];
