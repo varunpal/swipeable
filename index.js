@@ -1,4 +1,5 @@
 var Swipe = function (element, callback, options) {
+  options = options || {};
   var time,
     startX,
     startY,
